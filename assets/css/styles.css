@@ -462,6 +462,14 @@ img {
   transform: translate(7px, 0);
 }
 
+.experience_company a{
+  color: #0077b6;
+}
+
+.experience_description a{
+  color: #0077b6;
+}
+
 .education_data,
 .experience_data{
   gap: .5rem;
@@ -512,6 +520,15 @@ img {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
 }
+
+.certificate_description{
+  text-align: justify;
+}
+
+.experience_description{
+  text-align: justify;
+}
+
 /* REFERENCES */
 .references_content{
   gap: .25rem;
@@ -615,7 +632,7 @@ img {
 
   .section-title,
   .profile_description{
-    text-align: initial;
+    text-align: justify;
     gap: 0;
   }
 
